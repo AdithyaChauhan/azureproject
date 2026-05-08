@@ -1,0 +1,15 @@
+{
+	"name": "datafactory-adi",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4746c48b-8e61-4dbd-8c06-caa607ba019d",
+		"tenantId": "bd00d878-bffd-410e-8d94-ef27eac954fb"
+	}
+}
